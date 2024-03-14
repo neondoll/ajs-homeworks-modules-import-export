@@ -1,0 +1,27 @@
+{
+  "name": "ajs-homeworks-modules-import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neondoll/ajs-homeworks-modules-import-export.git"
+  },
+  "author": "neondoll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neondoll/ajs-homeworks-modules-import-export/issues"
+  },
+  "homepage": "https://github.com/neondoll/ajs-homeworks-modules-import-export#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  }
+}
